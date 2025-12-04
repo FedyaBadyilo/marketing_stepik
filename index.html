@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=YOUR_YANDEX_METRIKA_ID', 'ym');
+        ym(YOUR_YANDEX_METRIKA_ID, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/YOUR_YANDEX_METRIKA_ID" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YOUR_GA4_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YOUR_GA4_ID');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepik — Онлайн-образование нового уровня</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">Stepik</div>
+            <nav>
+                <a href="#hero">Главная</a>
+                <a href="#features">Особенности</a>
+                <a href="#courses">Курсы</a>
+                <a href="#demo">Демо</a>
+                <a href="#registration">Регистрация</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Онлайн-образование нового уровня</h1>
+                <p class="hero-subtitle">Изучайте программирование, дизайн, маркетинг и многое другое</p>
+                <p class="hero-description">Stepik — это интерактивная образовательная платформа с тысячами курсов от ведущих университетов и компаний. Учитесь в удобном темпе, выполняйте практические задания и получайте сертификаты.</p>
+                <div class="hero-buttons">
+                    <a href="#registration" class="btn btn-primary" onclick="trackCTAClick('registration', 'hero');">Начать обучение</a>
+                    <a href="#demo" class="btn btn-secondary" onclick="trackCTAClick('demo', 'hero');">Попробовать бесплатно</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="platform-mockup">
+                    <div class="screen">
+                        <div class="screen-content">
+                            <div class="course-card-mini"></div>
+                            <div class="course-card-mini"></div>
+                            <div class="course-card-mini"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Почему выбирают Stepik?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Интерактивные задания</h3>
+                    <p>Решайте задачи прямо в браузере с автоматической проверкой. Получайте мгновенную обратную связь и учитесь на ошибках.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📜</div>
+                    <h3>Сертификаты</h3>
+                    <p>Получайте официальные сертификаты о прохождении курсов, которые можно добавить в резюме и LinkedIn.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Сообщество студентов</h3>
+                    <p>Общайтесь с другими учащимися, задавайте вопросы преподавателям и участвуйте в обсуждениях.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3>Гибкий график</h3>
+                    <p>Учитесь в любое время и в любом месте. Все материалы доступны 24/7, проходите курсы в своем темпе.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Практические проекты</h3>
+                    <p>Применяйте знания на реальных проектах. Создавайте портфолио и демонстрируйте свои навыки работодателям.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Поддержка преподавателей</h3>
+                    <p>Получайте помощь от опытных преподавателей и менторов. Задавайте вопросы и получайте развернутые ответы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Preview Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Популярные курсы</h2>
+            <p class="section-subtitle">Выберите направление, которое вам интересно</p>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">🐍</div>
+                    <h3>Программирование на Python</h3>
+                    <p>Изучите основы программирования и создайте свои первые проекты. От переменных до веб-разработки.</p>
+                    <div class="course-stats">
+                        <span>⭐ 4.8</span>
+                        <span>👥 50K+ студентов</span>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🎨</div>
+                    <h3>Веб-дизайн и UX</h3>
+                    <p>Создавайте красивые и удобные интерфейсы. Изучите Figma, принципы дизайна и работу с пользователями.</p>
+                    <div class="course-stats">
+                        <span>⭐ 4.7</span>
+                        <span>👥 30K+ студентов</span>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">📊</div>
+                    <h3>Маркетинг и аналитика</h3>
+                    <p>Освойте digital-маркетинг, работу с Google Analytics, Яндекс.Метрикой и продвижение в соцсетях.</p>
+                    <div class="course-stats">
+                        <span>⭐ 4.9</span>
+                        <span>👥 25K+ студентов</span>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">📈</div>
+                    <h3>Data Science</h3>
+                    <p>Анализируйте данные, создавайте модели машинного обучения и визуализируйте результаты.</p>
+                    <div class="course-stats">
+                        <span>⭐ 4.8</span>
+                        <span>👥 40K+ студентов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Request Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <div class="demo-content">
+                <h2>Попробуйте Stepik бесплатно</h2>
+                <p class="demo-description">Получите демо-доступ к платформе и оцените все возможности. Выберите интересующий курс и начните обучение уже сегодня.</p>
+                <form id="demo-form" class="demo-form" onsubmit="handleDemoSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" id="demo-name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="demo-email" name="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="demo-course" name="course" required>
+                            <option value="">Выберите интересующий курс</option>
+                            <option value="python">Программирование на Python</option>
+                            <option value="design">Веб-дизайн и UX</option>
+                            <option value="marketing">Маркетинг и аналитика</option>
+                            <option value="data-science">Data Science</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-cta">Получить демо-доступ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration" class="registration">
+        <div class="container">
+            <div class="registration-content">
+                <h2>Начните обучение прямо сейчас</h2>
+                <p class="registration-description">Создайте аккаунт на Stepik и получите доступ к тысячам курсов. Первый курс — бесплатно!</p>
+                <form id="registration-form" class="registration-form" onsubmit="handleRegistrationSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" id="reg-name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="reg-email" name="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="reg-password" name="password" placeholder="Пароль (минимум 8 символов)" required minlength="8">
+                    </div>
+                    <button type="submit" class="btn btn-cta">Зарегистрироваться</button>
+                    <p class="form-note">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Stepik</h4>
+                    <p>© 2025 Stepik. Онлайн-образование для всех.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Поддержка</h4>
+                    <a href="#">Контакты</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Помощь</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Категории</h4>
+                    <a href="#">Программирование</a>
+                    <a href="#">Дизайн</a>
+                    <a href="#">Маркетинг</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Социальные сети</h4>
+                    <a href="#">VK</a>
+                    <a href="#">Telegram</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ВАЖНО: Замените YOUR_YANDEX_METRIKA_ID на ваш реальный ID Яндекс.Метрики (число)
+        // Например: const YANDEX_METRIKA_ID = 105502932;
+        const YANDEX_METRIKA_ID = typeof YOUR_YANDEX_METRIKA_ID !== 'undefined' ? YOUR_YANDEX_METRIKA_ID : null;
+        
+        // Функция для отслеживания кликов по CTA
+        function trackCTAClick(buttonType, section) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'cta_click', {
+                    'button_type': buttonType,
+                    'section': section
+                });
+            }
+            if (typeof ym !== 'undefined' && YANDEX_METRIKA_ID) {
+                ym(YANDEX_METRIKA_ID, 'reachGoal', 'hero_' + buttonType);
+            }
+        }
+        
+        // Обработка формы демо-запроса
+        function handleDemoSubmit(event) {
+            event.preventDefault();
+            const formData = {
+                name: document.getElementById('demo-name').value,
+                email: document.getElementById('demo-email').value,
+                course: document.getElementById('demo-course').value
+            };
+            
+            // Отправка события в Google Analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'demo_request', {
+                    'event_category': 'form',
+                    'event_label': formData.course,
+                    'value': 1
+                });
+            }
+            
+            // Отправка события в Яндекс.Метрику
+            if (typeof ym !== 'undefined' && YANDEX_METRIKA_ID) {
+                ym(YANDEX_METRIKA_ID, 'reachGoal', 'demo_request', {
+                    course: formData.course
+                });
+            }
+            
+            // Симуляция отправки (в реальном проекте здесь был бы AJAX запрос)
+            alert('Спасибо! Демо-доступ будет отправлен на ваш email в ближайшее время.');
+            event.target.reset();
+        }
+        
+        // Обработка формы регистрации
+        function handleRegistrationSubmit(event) {
+            event.preventDefault();
+            const formData = {
+                name: document.getElementById('reg-name').value,
+                email: document.getElementById('reg-email').value
+            };
+            
+            // Отправка события в Google Analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'registration_submit', {
+                    'event_category': 'form',
+                    'event_label': 'registration',
+                    'value': 1
+                });
+            }
+            
+            // Отправка события в Яндекс.Метрику
+            if (typeof ym !== 'undefined' && YANDEX_METRIKA_ID) {
+                ym(YANDEX_METRIKA_ID, 'reachGoal', 'registration_submit');
+            }
+            
+            // Симуляция отправки (в реальном проекте здесь был бы AJAX запрос)
+            alert('Регистрация успешна! Проверьте ваш email для подтверждения аккаунта.');
+            event.target.reset();
+        }
+    </script>
+</body>
+</html>
+
